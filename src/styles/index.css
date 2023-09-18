@@ -10,50 +10,50 @@ body {
 
 @font-face {
   font-family: 'AbyssinicaSILRegular';
-  src: url('../../public/assets/fonts/AbyssinicaSILRegular.ttf') format('truetype');
+  src: url('../fonts/AbyssinicaSILRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MontserratMedium';
-  src: url('../../public/assets/fonts/MontserratMedium.ttf') format('truetype');
+  src: url('../fonts/MontserratMedium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRegular';
-  src: url('../../public/assets/fonts/MontserratRegular.ttf') format('truetype');
+  src: url('../fonts/MontserratRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanLight';
-  src: url('../../public/assets/fonts/MontserratRomanLight.ttf') format('truetype');
+  src: url('../fonts/MontserratRomanLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanMedium';
-  src: url('../../public/assets/fonts/MontserratRomanMedium.ttf') format('truetype');
+  src: url('../fonts/MontserratRomanMedium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanRegular';
-  src: url('../../public/assets/fonts/MontserratRomanRegular.ttf') format('truetype');
+  src: url('../fonts/MontserratRomanRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanSemiBold';
-  src: url('../../public/assets/fonts/MontserratRomanSemiBold.ttf') format('truetype');
+  src: url('../fonts/MontserratRomanSemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratSemiBold';
-  src: url('../../public/assets/fonts/MontserratSemiBold.ttf') format('truetype');
+  src: url('../fonts/MontserratSemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
