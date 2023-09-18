@@ -7,6 +7,58 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: 'Font1';
+  src: url('../../public/assets/fonts/AbyssinicaSILRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratRomanLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratRomanMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratRomanRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratRomanSemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Font2';
+  src: url('../../public/assets/fonts/MontserratSemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .dhiwise-code,
 .dhiwise-navigation {
   min-height: 100%;
