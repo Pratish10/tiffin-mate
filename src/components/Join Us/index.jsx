@@ -27,7 +27,10 @@ const JoinUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(formData);
+
+    const data = `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`;
+
+    alert(data);
     setFormData({
       name: "",
       email: "",
@@ -45,14 +48,14 @@ const JoinUs = () => {
               alt="digitaltransfor"
             />
             <Text
-              className="mt-[63px] md:text-3xl sm:text-[28px] text-[32px] text-gray-900"
-              size="txtEuclidCircularBMedium32"
+              className="mt-[63px] md:text-3xl sm:text-[28px] text-[32px] text-gray-900 font-bold"
+              style={{ fontFamily: "Euclid Circular B" }}
             >
               We are for you
             </Text>
             <Text
               className="mt-[13px] sm:text-4xl md:text-[38px] text-[40px] text-lime-900"
-              size="txtEuclidCircularBMedium40"
+              style={{ fontFamily: "Euclid Circular B" }}
             >
               Let’s Build Together{" "}
             </Text>
@@ -69,8 +72,8 @@ const JoinUs = () => {
           </div>
           <div className="flex md:flex-1 flex-col items-start justify-start md:mt-0 mt-10 w-[36%] md:w-full">
             <Text
-              className="sm:text-[32px] md:text-[38px] text-[42px] text-gray-900"
-              size="txtEuclidCircularBMedium42"
+              className="sm:text-[32px] md:text-[38px] text-[42px] text-gray-900 font-bold"
+              style={{ fontFamily: "Euclid Circular B" }}
             >
               Come Join Us
             </Text>
@@ -157,9 +160,11 @@ const JoinUs = () => {
               shape="square"
               size="md"
               variant="outline"
-              color={isHovered ? "#ffffff" : "amber_300_01"}
+              // color="#9e7e0c"
               style={{
-                backgroundColor: isHovered ? "#fed35c" : "transparent",
+                backgroundColor: isHovered ? "#fed35c" : "",
+                color: isHovered ? "#ffffff" : "#9e7e0c",
+                border: "1px solid #9e7e0c",
               }}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}

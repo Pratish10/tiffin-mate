@@ -1,3 +1,4 @@
+/* @import url('https://fonts.cdnfonts.com/css/euclid-circular-b'); */
 * {
   box-sizing: border-box;
   line-height: normal;
@@ -8,55 +9,62 @@ body {
   padding: 0;
 }
 
+/* @font-face {
+  font-family: 'Euclid Circular B';
+  src: url('../../public/assets/fonts/EuclidCircularB-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'AbyssinicaSILRegular';
-  src: url('../fonts/AbyssinicaSILRegular.ttf') format('truetype');
+  src: url('../../public/assets/fonts/AbyssinicaSILRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MontserratMedium';
-  src: url('../fonts/MontserratMedium.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratMedium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRegular';
-  src: url('../fonts/MontserratRegular.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanLight';
-  src: url('../fonts/MontserratRomanLight.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratRomanLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanMedium';
-  src: url('../fonts/MontserratRomanMedium.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratRomanMedium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanRegular';
-  src: url('../fonts/MontserratRomanRegular.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratRomanRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratRomanSemiBold';
-  src: url('../fonts/MontserratRomanSemiBold.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratRomanSemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'MontserratSemiBold';
-  src: url('../fonts/MontserratSemiBold.ttf') format('truetype');
+  src: url('../../public/assets/fonts/MontserratSemiBold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 
 .dhiwise-code,

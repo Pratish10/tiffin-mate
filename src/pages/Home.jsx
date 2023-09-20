@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { Button, Img, Line, List, Text } from "../components";
 import Card from "../components/Card";
 import Foods from "components/Foods";
@@ -18,16 +17,35 @@ const Home = () => {
 
   return (
     <div className="bg-white-A700 flex flex-col font-abyssinicasil items-center justify-start mx-auto w-full">
-      <div className="font-montserrat md:h-[884px] h-[904px] md:px-5 relative w-full">
-        <Img
-          className="md:h-[884px] h-full m-auto object-cover w-full"
-          src="images/img_kitchenrobot.png"
-          alt="kitchenrobot"
-        />
-        <div className="absolute bg-blue_gray-900_93 flex flex-col h-[100px] inset-[0] items-start justify-center mx-auto p-14 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col gap-4 items-start justify-start mt-[31%] w-auto md:w-full">
+      <div
+        className="font-montserrat md:h-[884px] h-[904px] md:px-5 relative w-full"
+        style={{ backgroundColor: "black" }}
+      >
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="md:h-[884px] h-[904px] m-auto object-cover w-full"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            opacity: 0.4,
+          }}
+        >
+          <source src="/images/kitchen_robot.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute flex flex-col h-[100px] inset-[0] items-start justify-center mx-auto p-14 md:px-10 sm:px-5 w-full">
+          <div className="flex flex-col gap-4 items-start justify-start mt-[31%] w-auto md:w-full ml-10">
             <Text
-              className="max-w-[650px] md:max-w-full md:text-5xl text-6xl text-amber-300"
+              className="max-w-[650px] md:max-w-full md:text-5xl text-6xl"
+              style={{
+                color: "#fed35c",
+              }}
               size="txtMontserratMedium60"
             >
               Elevate Your Breakfast Experience
@@ -43,9 +61,12 @@ const Home = () => {
               shape="square"
               size="md"
               variant="outline"
-              color={isHovered ? "#ffffff" : "amber_300_01"}
+              // color="#9e7e0c"
               style={{
                 backgroundColor: isHovered ? "#fed35c" : "",
+                color: isHovered ? "#ffffff" : "#fed35c",
+                border: "1px solid #fed35c",
+                width: "5px",
               }}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
@@ -222,7 +243,7 @@ const Home = () => {
                 Enjoy the Convenience
               </Text>
             </div>
-            <div className="sm:h-[1170px] md:h-[120px] h-[35px] mt-3 md:px-5 relative w-[145%] md:w-full">
+            <div className="sm:h-[1170px] md:h-[120px] h-[35px] mt-3 md:px-5 relative w-[115.4%] md:w-full">
               <Line className="absolute bg-black-900 bottom-[46%] h-px inset-x-[0] max-w-[100%] w-full" />
               <List
                 className="absolute sm:flex-col flex-row md:gap-10 gap-[247px] grid sm:grid-cols-1 md:grid-cols-3 grid-cols-5 inset-[0] justify-center m-auto w-[100px]"
@@ -335,13 +356,13 @@ const Home = () => {
       <div className="bg-white-A700 flex flex-col font-montserrat h-[509px] md:h-auto items-center justify-start max-w-[1439px] pb-[50px] pt-[120px] w-full">
         <div className="flex flex-col gap-4 items-center justify-start max-w-[879px] mx-auto md:px-5 w-full">
           <Text
-            className="sm:text-4xl md:text-[38px] text-[40px] text-colors underline w-auto"
+            className="sm:text-4xl md:text-[38px] text-[40px] text-colors w-auto"
             size="txtMontserratSemiBold40OrangeA700"
           >
-            <span className="text-lime-900 font-montserrat text-left font-semibold">
+            <span className="text-lime-900 font-montserrat text-left underline font-semibold">
               Tiffin Mate’s{" "}
             </span>
-            <span className="text-black-900 font-montserrat text-left font-semibold">
+            <span className="text-black-900 font-montserrat text-left underline font-semibold">
               Franchise Opportunities
             </span>
           </Text>
@@ -360,9 +381,11 @@ const Home = () => {
             shape="square"
             size="md"
             variant="outline"
-            color={isHovered ? "#ffffff" : "amber_300_01"}
+            // color="#9e7e0c"
             style={{
-              backgroundColor: isHovered ? "#fed35c" : "transparent",
+              backgroundColor: isHovered ? "#fed35c" : "",
+              color: isHovered ? "#ffffff" : "#9e7e0c",
+              border: "1px solid #9e7e0c",
             }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}

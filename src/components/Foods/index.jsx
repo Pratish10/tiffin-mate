@@ -27,7 +27,7 @@ const Foods = () => {
           className="text-2xl md:text-[22px] text-blue_gray-900 text-center sm:text-xl"
           size="txtMontserratRomanSemiBold24"
         >
-          Sevia Upma
+          Kitchdi
         </Text>
       </div>
       <div className="bg-white-A700 flex flex-1 flex-col gap-[17px] items-center justify-start p-4 w-full">

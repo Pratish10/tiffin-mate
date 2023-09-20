@@ -13,6 +13,7 @@ const Header = () => {
         color="amber_300"
         size="xs"
         variant="fill"
+        style={{ fontFamily: "Abyssinica SIL" }}
       >
         <Link to="/">tiffin mate</Link>
       </Button>

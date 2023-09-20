@@ -1,9 +1,10 @@
 
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/AbyssinicaSILRegular.ttf"); font-family : "Abyssinica SIL"; font-weight : 400;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratSemiBold.ttf"); font-family : "Montserrat"; font-weight : 600;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratRegular.ttf"); font-family : "Montserrat"; font-weight : 400;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratMedium.ttf"); font-family : "Montserrat"; font-weight : 500;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratRomanSemiBold.ttf"); font-family : "Montserrat"; font-weight : 600;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratRomanRegular.ttf"); font-family : "Montserrat"; font-weight : 400;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratRomanMedium.ttf"); font-family : "Montserrat"; font-weight : 500;  }
- @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MontserratRomanLight.ttf"); font-family : "Montserrat"; font-weight : 300;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/AbyssinicaSILRegular.ttf"); font-family : "Abyssinica SIL"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratSemiBold.ttf"); font-family : "Montserrat"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratRegular.ttf"); font-family : "Montserrat"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratMedium.ttf"); font-family : "Montserrat"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratRomanSemiBold.ttf"); font-family : "Montserrat"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratRomanRegular.ttf"); font-family : "Montserrat"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratRomanMedium.ttf"); font-family : "Montserrat"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("../../public//assets/fonts/MontserratRomanLight.ttf"); font-family : "Montserrat"; font-weight : 300;  }
+ @font-face { font-family: 'Euclid Circular B'; src: url('../../public//assets/fonts/EuclidCircularB-Regular.woff2') format('woff2'), url('path/to/EuclidCircularB-Regular.woff') format('woff'), url('path/to/EuclidCircularB-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; }
