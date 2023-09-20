@@ -163,7 +163,7 @@ const JoinUs = () => {
               // color="#9e7e0c"
               style={{
                 backgroundColor: isHovered ? "#fed35c" : "",
-                color: isHovered ? "#ffffff" : "#9e7e0c",
+                color: isHovered ? "#333333" : "#9e7e0c",
                 border: "1px solid #9e7e0c",
               }}
               onMouseEnter={handleMouseEnter}

@@ -64,7 +64,7 @@ const Home = () => {
               // color="#9e7e0c"
               style={{
                 backgroundColor: isHovered ? "#fed35c" : "",
-                color: isHovered ? "#ffffff" : "#fed35c",
+                color: isHovered ? "#333333" : "#fed35c",
                 border: "1px solid #fed35c",
                 width: "5px",
               }}
@@ -384,7 +384,7 @@ const Home = () => {
             // color="#9e7e0c"
             style={{
               backgroundColor: isHovered ? "#fed35c" : "",
-              color: isHovered ? "#ffffff" : "#9e7e0c",
+              color: isHovered ? "#333333" : "#9e7e0c",
               border: "1px solid #9e7e0c",
             }}
             onMouseEnter={handleMouseEnter}
