@@ -55,7 +55,7 @@ const JoinUs = () => {
             </Text>
             <Text
               className="mt-[13px] sm:text-4xl md:text-[38px] text-[40px] text-lime-900"
-              style={{ fontFamily: "Euclid Circular B" }}
+              style={{ fontFamily: "Euclid Circular B", fontWeight: 600 }}
             >
               Let’s Build Together{" "}
             </Text>
