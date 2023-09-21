@@ -1,0 +1,147 @@
+.section__padding {
+    padding: 4rem 4rem;
+}
+
+.title {
+    margin-left: 20px;
+    font-size: 2.5rem;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #fed35c;
+    font-family: "Abyssinica SIL";
+    color: black;
+    text-align: center;
+}
+
+.address {
+    padding: 1.4rem;
+    margin-left: 5px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+.footer {
+    background-color: #333333;
+}
+
+.sb__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sb__footer-links-div {
+    width: 300px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia img {
+    padding: 6px;
+}
+
+
+.sb__footer-links-div p {
+    line-height: 40px;
+    margin: 0.5rem 62px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+.sb__footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+
+}
+
+hr {
+    color: white !important;
+
+}
+
+.sb__footer-copyright {
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+@media screen and (max-width: 4000px) {
+
+    .title {
+        text-decoration: none;
+    }
+
+
+}
+
+@media screen and (max-width: 850px) {
+    .sb__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .title {
+        text-decoration: none;
+    }
+
+    .sb__footer-links-div {
+        margin: 1rem 0;
+    }
+
+    .sb__footer-below {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sb__footer-below-links {
+        flex-direction: column;
+
+    }
+
+    .sb__footer-below-links p {
+        margin-left: 0rem;
+        margin-top: 1rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .sb__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .title {
+        text-decoration: none;
+    }
+
+
+}

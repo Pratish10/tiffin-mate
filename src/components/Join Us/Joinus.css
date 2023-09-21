@@ -1,0 +1,178 @@
+.joinus-container {
+    padding: 20px;
+
+}
+
+.column-1,
+.column-2 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    float: left;
+    width: 50%;
+    height: 100%;
+    top: 4361px;
+    padding: 49px 131px 49px 131px;
+    text-align: center;
+    /* box-sizing: border-box; */
+
+
+}
+
+
+
+.joinus-img {
+    width: 420px;
+    height: 281px;
+    top: 49px;
+    left: 131px;
+}
+
+.column-1 h3 {
+    width: 218px;
+    height: 41px;
+    top: 391px;
+    left: 131px;
+    font-family: "Euclid Circular B";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40.58px;
+    color: #191509;
+}
+
+.column-1 h2 {
+    width: 368px;
+    height: 51px;
+    top: 444px;
+    left: 131px;
+    font-family: "Euclid Circular B";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50.72px;
+    color: #9E7E0C;
+}
+
+.column-1 p {
+    width: 621px;
+    height: 102px;
+    top: 503px;
+    left: 131px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #333333;
+    text-align: left;
+
+}
+
+.column-2 h2 {
+    width: 269px;
+    height: 53px;
+    top: 90px;
+    left: 890px;
+    font-family: "Euclid Circular B";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53.26px;
+    color: #191509;
+
+}
+
+.form-input {
+    padding: 20px 20px 20px 0px;
+}
+
+.input {
+    border: 1.6px solid #737992 !important;
+    border-radius: 5px !important;
+    width: 100%;
+    font-family: "Montserrat";
+    font-style: italic;
+}
+
+.input:focus {
+    border-color: black !important;
+}
+
+.input:not(:focus) {
+    border-color: #797f97;
+}
+
+.joinus-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.joinus-button button {
+
+    padding: 20px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .column-1 p {
+        width: auto;
+        font-size: 20px;
+
+    }
+
+    .column-1 h3 {
+
+        font-size: 22px;
+
+    }
+
+    .column-1 h2 {
+
+        font-size: 30px;
+
+    }
+
+    .joinus-img {
+        width: auto;
+        height: auto;
+        margin-bottom: 70px;
+
+    }
+}
+
+@media screen and (max-width: 897px) {
+
+
+
+    .column-1,
+    .column-2 {
+        width: auto;
+        padding: 10px;
+        height: auto;
+
+    }
+
+    .column-1 p {
+        width: auto;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+
+    .column-1 h3 {
+
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .column-1 h2 {
+
+        font-size: 25px;
+        text-align: center;
+
+    }
+}

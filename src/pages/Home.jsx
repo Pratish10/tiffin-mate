@@ -3,6 +3,7 @@ import { Button, Img, Line, List, Text } from "../components";
 import Card from "../components/Card";
 import Foods from "components/Foods";
 import JoinUs from "components/Join Us";
+import "./Home.css";
 
 const Home = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -17,8 +18,9 @@ const Home = () => {
 
   return (
     <div className="bg-white-A700 flex flex-col font-abyssinicasil items-center justify-start mx-auto w-full">
+      {/* <-------------------------------------------Hero section starts -----------------------------------------> */}
       <div
-        className="font-montserrat md:h-[884px] h-[904px] md:px-5 relative w-full"
+        className="font-montserrat md:h-[884px] h-[904px] md:px-5 relative w-full hero"
         style={{ backgroundColor: "black" }}
       >
         <video
@@ -75,73 +77,87 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-amber-300 flex flex-col font-montserrat gap-12 items-center justify-start max-w-[100%] mt-[-20px] pb-[50px] pt-[120px] w-full">
-        <Text
-          className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 underline w-auto mr-[10px]"
-          size="txtMontserratSemiBold40"
-        >
-          All About Tiffin Mate
-        </Text>
-        <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1335px] mx-auto md:px-5 w-full">
-          <div className="flex sm:flex-1 flex-col gap-[54px] items-start justify-start w-auto sm:w-full">
-            <Card
-              title="What we are"
-              description='At Tiffin mate, we use amazing machines to make delicious
+      {/* <-------------------------------------------Hero section ends -----------------------------------------> */}
+
+      {/* <-------------------------------------------About tiffin Mate section starts -----------------------------------------> */}
+      <div className="about-container">
+        <div className="about-title">
+          <h2>All About Tiffin Mate</h2>
+        </div>
+        <div className="about-outer-content">
+          <div className="about-content">
+            <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1335px] mx-auto md:px-5 w-full">
+              <div className="flex sm:flex-1 flex-col gap-[54px] items-start justify-start w-auto sm:w-full">
+                <Card
+                  title="What we are"
+                  description='At Tiffin mate, we use amazing machines to make delicious
                     breakfast. It&#39;s like magic! Our breakfasts are made with
                     love and the best ingredients, so they&#39;re super yummy.
                     You order, we make, and you enjoy!"'
-            />
-            <Card
-              title="Our Story"
-              description="Tiffin Mate was born out of a passion for redefining
+                />
+                <Card
+                  title="Our Story"
+                  description="Tiffin Mate was born out of a passion for redefining
                 breakfast. Our team combines culinary expertise with
                 cutting-edge robotics to create a unique breakfast experience."
-            />
-          </div>
-          <div className="flex sm:flex-1 flex-col items-start justify-start w-[430px] sm:w-full mr-[10px]">
-            <div className="flex flex-col gap-[26px] items-center justify-start w-full">
-              <div className="flex sm:flex-col flex-row gap-5 items-center justify-between w-full">
-                <Img
-                  className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
-                  src="images/img_rectangle30.png"
-                  alt="rectangleThirty"
-                />
-                <Img
-                  className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
-                  src="images/img_rectangle31.png"
-                  alt="rectangleThirtyOne"
                 />
               </div>
-              <div className="flex sm:flex-col flex-row gap-5 items-center justify-between w-full">
-                <Img
-                  className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
-                  src="images/img_rectangle32.png"
-                  alt="rectangleThirtyTwo"
+
+              <div className="flex sm:flex-1 flex-col items-start justify-start w-[430px] sm:w-full mr-[10px]">
+                <div className="flex flex-col gap-[26px] items-center justify-start w-full">
+                  <div className="flex sm:flex-col flex-row gap-5 items-center justify-between w-full">
+                    <div className="about-img">
+                      <Img
+                        className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
+                        src="images/img_rectangle30.png"
+                        alt="rectangleThirty"
+                      />
+                    </div>
+                    <div className="about-img">
+                      <Img
+                        className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
+                        src="images/img_rectangle31.png"
+                        alt="rectangleThirtyOne"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex sm:flex-col flex-row gap-5 items-center justify-between w-full">
+                    <div className="about-img">
+                      <Img
+                        className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
+                        src="images/img_rectangle32.png"
+                        alt="rectangleThirtyTwo"
+                      />
+                    </div>
+                    <div className="about-img">
+                      <Img
+                        className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
+                        src="images/img_rectangle33.png"
+                        alt="rectangleThirtyThree"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex sm:flex-1 flex-col md:gap-10 gap-20 items-start justify-start w-auto sm:w-full">
+                <Card
+                  title="Quality and Flavour"
+                  description="We&#39;re committed to quality. Our dishes are crafted with
+                    love and the freshest ingredients to ensure every bite is
+                    bursting with flavor."
                 />
-                <Img
-                  className="sm:flex-1 h-[237px] md:h-auto object-cover w-[205px] sm:w-full"
-                  src="images/img_rectangle33.png"
-                  alt="rectangleThirtyThree"
+                <Card
+                  title="Innovation at your Service"
+                  description="We&#39;re committed to quality. Our dishes are crafted with
+                    love and the freshest ingredients to ensure every bite is
+                    bursting with flavor."
                 />
               </div>
             </div>
           </div>
-          <div className="flex sm:flex-1 flex-col md:gap-10 gap-20 items-start justify-start w-auto sm:w-full">
-            <Card
-              title="Quality and Flavour"
-              description="We&#39;re committed to quality. Our dishes are crafted with
-                    love and the freshest ingredients to ensure every bite is
-                    bursting with flavor."
-            />
-            <Card
-              title="Innovation at your Service"
-              description="We&#39;re committed to quality. Our dishes are crafted with
-                    love and the freshest ingredients to ensure every bite is
-                    bursting with flavor."
-            />
-          </div>
         </div>
       </div>
+      {/* <-------------------------------------------About tiffin Mate section ends -----------------------------------------> */}
       <div className="flex flex-col font-montserrat md:gap-10 gap-16 items-center justify-start pb-[50px] pt-[120px] w-auto md:w-full">
         <div className="flex flex-col gap-2 items-center justify-start md:px-5 w-auto md:w-full">
           <Text
@@ -330,57 +346,60 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="bg-amber-300 flex flex-col font-montserrat items-center justify-start p-[94px] md:px-10 sm:px-5 w-full">
-        <div className="flex flex-col gap-[41px] items-center justify-start max-w-[1252px] mb-8 mt-[47px] mx-auto w-full">
-          <div className="flex flex-col gap-2 items-center justify-start w-auto md:w-full">
-            <Text
-              className="sm:text-4xl md:text-[38px] text-[40px] text-black-900 underline w-auto"
-              size="txtMontserratSemiBold40Black900"
-            >
-              What Your Tiffin Mate Cooks
-            </Text>
-            <Text
-              className="leading-[32.00px] max-w-[654px] md:max-w-full text-blue_gray-900 text-center text-xl"
-              size="txtMontserratRegular20"
-            >
-              <>
-                &quot;Discover Our Robot&#39;s Culinary Creations: Breakfasts
-                Brought to Life&quot;
-              </>
-            </Text>
+      {/* <-------------------------------------------Food Card section starts -----------------------------------------> */}
+      <div className="food-container">
+        <div className="food-card-title">
+          <h2>What Your Tiffin Mate Cooks</h2>
+        </div>
+        <div className="food-content">
+          &quot;Discover Our Robot&#39;s Culinary Creations: Breakfasts Brought
+          to Life&quot;
+        </div>
+        <div className="food-card-grid">
+          <div className="food-card-grid-item">
+            <Foods image="/images/img_rectangle10894.png" title="Masala Upma" />
           </div>
-          <Foods />
+          <div className="food-card-grid-item">
+            <Foods image="/images/img_rectangle10854.png" title="Kitchdi" />
+          </div>
+          <div className="food-card-grid-item">
+            <Foods image="/images/img_rectangle10899.png" title="Poha" />
+          </div>
+          <div className="food-card-grid-item">
+            <Foods
+              image="/images/img_rectangle10853.png"
+              title="Bisibele Bath"
+            />
+          </div>
+          <div className="food-card-grid-item">
+            <Foods image="/images/img_rectangle10897.png" title="Pongal" />
+          </div>
+          <div className="food-card-grid-item">
+            <Foods
+              image="/images/img_rectangle10901.png"
+              title="Kesari Halwa"
+            />
+          </div>
         </div>
       </div>
-      <div className="bg-white-A700 flex flex-col font-montserrat h-[509px] md:h-auto items-center justify-start max-w-[1439px] pb-[50px] pt-[120px] w-full">
-        <div className="flex flex-col gap-4 items-center justify-start max-w-[879px] mx-auto md:px-5 w-full">
-          <Text
-            className="sm:text-4xl md:text-[38px] text-[40px] text-colors w-auto"
-            size="txtMontserratSemiBold40OrangeA700"
-          >
-            <span className="text-lime-900 font-montserrat text-left underline font-semibold">
-              Tiffin Mate’s{" "}
-            </span>
-            <span className="text-black-900 font-montserrat text-left underline font-semibold">
-              Franchise Opportunities
-            </span>
-          </Text>
-          <Text
-            className="leading-[32.00px] max-w-[879px] md:max-w-full text-blue_gray-900 text-center text-xl"
-            size="txtMontserratRegular20"
-          >
+      {/* <-------------------------------------------Food Card section ends -----------------------------------------> */}
+      {/* <-------------------------------------------Franchise opportunities section starts -----------------------------------------> */}
+      <div className="franchise-container">
+        <div className="franchise-title">
+          <h2 className="title-1">Tiffin Mate's</h2>
+          <h2 className="title-2">Franchise Opportunities</h2>
+        </div>
+        <div className="franchise-content">
+          <p>
             A path with future Entrepreneurship. Are you ready to turn your
             dreams into reality? At Tiffin Mate, we offer an exciting
             opportunity for individuals who share our passion for delicious
             breakfast and innovation. Become a part of the Tiffin Mate family
             and embark on your journey to entrepreneurship!
-          </Text>
-          <Button
-            className="cursor-pointer font-montserrat font-semibold min-w-[201px] md:ml-[0] mt-[30px] text-center text-lg"
-            shape="square"
-            size="md"
-            variant="outline"
-            // color="#9e7e0c"
+          </p>
+        </div>
+        <div className="franchise-button">
+          <button
             style={{
               backgroundColor: isHovered ? "#fed35c" : "",
               color: isHovered ? "#333333" : "#9e7e0c",
@@ -390,9 +409,10 @@ const Home = () => {
             onMouseLeave={handleMouseLeave}
           >
             Book Your Franchise
-          </Button>
+          </button>
         </div>
       </div>
+      {/* <-------------------------------------------Franchise opportunities section starts -----------------------------------------> */}
       <JoinUs />
     </div>
   );
