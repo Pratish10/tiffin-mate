@@ -28,11 +28,11 @@ const ProjectRoutes = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
-          {/* <Route path="/menu" element={<Menu />} /> */}
-          {/* <Route path="/franchise" element={<Franchise />} /> */}
-          {/* <Route path="/faq" element={<FAQ />} /> */}
-          {/* <Route path="/contactus" element={<ContactUs />} /> */}
+          <Route path="*" element={<NotFound />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/franchise" element={<Franchise />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/contactus" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>

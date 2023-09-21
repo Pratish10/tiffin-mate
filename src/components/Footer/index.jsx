@@ -12,7 +12,7 @@ const Footer = () => {
       {/* 1st row */}
       <div className="m-8 grid grid-cols-3 justify-evenly">
         {/* First Column */}
-        <div className="flex-1 flex flex-col items-center justify-center mb-[50px] mt-[50px] mx-auto mr-40">
+        <div className="flex-1 flex flex-col items-center justify-center mb-[50px] mt-[50px] mx-auto mr-[140px]">
           <div className="mb-[50px]">
             <Button
               className="border border-black-900 border-solid cursor-pointer font-abyssinicasil text-5xl sm:text-[35px] md:text-[40px] text-center w-[300px]"
@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
 
         {/* Second Column */}
-        <div className="flex-1 flex flex-col items-center justify-left mb-[50px] mt-[50px] mx-auto mr-40">
+        <div className="flex-1 flex flex-col items-center justify-left mb-[50px] mt-[50px] mx-auto mr-[100px]">
           <ul className="text-white-A700 text-xl sm:text-[22px] ml-[20px] mb-[4rem] text-left sm:text-left">
             <li className="my-14">
               <Link to="/">Home</Link>
@@ -112,7 +112,7 @@ const Footer = () => {
         </div>
 
         {/* Third Column */}
-        <div className="flex-1 flex flex-col items-center justify-left mt-[50px]">
+        <div className="flex-1 flex flex-col items-center justify-left mt-[50px] ml-[200px]">
           <ul className="text-white-A700 text-xl sm:text-[22px] ml-[20px] text-left sm:text-left">
             <li className="my-14">
               <Link to="/terms&conditions">Terms & Conditions</Link>

@@ -61,7 +61,6 @@ const Home = () => {
               shape="square"
               size="md"
               variant="outline"
-              // color="#9e7e0c"
               style={{
                 backgroundColor: isHovered ? "#fed35c" : "",
                 color: isHovered ? "#333333" : "#fed35c",
@@ -78,12 +77,12 @@ const Home = () => {
       </div>
       <div className="bg-amber-300 flex flex-col font-montserrat gap-12 items-center justify-start max-w-[100%] mt-[-20px] pb-[50px] pt-[120px] w-full">
         <Text
-          className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 underline w-auto"
+          className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 underline w-auto mr-[10px]"
           size="txtMontserratSemiBold40"
         >
           All About Tiffin Mate
         </Text>
-        <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1323px] mx-auto md:px-5 w-full">
+        <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1335px] mx-auto md:px-5 w-full">
           <div className="flex sm:flex-1 flex-col gap-[54px] items-start justify-start w-auto sm:w-full">
             <Card
               title="What we are"
@@ -99,7 +98,7 @@ const Home = () => {
                 cutting-edge robotics to create a unique breakfast experience."
             />
           </div>
-          <div className="flex sm:flex-1 flex-col items-start justify-start w-[430px] sm:w-full">
+          <div className="flex sm:flex-1 flex-col items-start justify-start w-[430px] sm:w-full mr-[10px]">
             <div className="flex flex-col gap-[26px] items-center justify-start w-full">
               <div className="flex sm:flex-col flex-row gap-5 items-center justify-between w-full">
                 <Img

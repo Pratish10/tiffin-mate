@@ -3,7 +3,7 @@ import { Img, Text } from "../";
 
 const Foods = () => {
   return (
-    <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-[95%]">
+    <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-[100%] mr-[100px] ml-[100px]">
       <div className="bg-white-A700 flex flex-1 flex-col gap-[22px] items-center justify-end p-3 w-full">
         <Img
           className="h-64 sm:h-auto mt-[3px] object-cover w-[98%] md:w-full"
