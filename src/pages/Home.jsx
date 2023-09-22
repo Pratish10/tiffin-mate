@@ -86,7 +86,7 @@ const Home = () => {
         </div>
         <div className="about-outer-content">
           <div className="about-content">
-            <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1335px] mx-auto md:px-5 w-full">
+            <div className="flex md:flex-col flex-row gap-5 items-start justify-start max-w-[1335px] mx-auto md:px-5 w-full mb-[7rem]">
               <div className="flex sm:flex-1 flex-col gap-[54px] items-start justify-start w-auto sm:w-full">
                 <Card
                   title="What we are"
@@ -158,7 +158,8 @@ const Home = () => {
         </div>
       </div>
       {/* <-------------------------------------------About tiffin Mate section ends -----------------------------------------> */}
-      <div className="flex flex-col font-montserrat md:gap-10 gap-16 items-center justify-start pb-[50px] pt-[120px] w-auto md:w-full">
+      {/* <-------------------------------------------How it works section starts -----------------------------------------> */}
+      {/* <div className="flex flex-col font-montserrat md:gap-10 gap-16 items-center justify-start pb-[50px] pt-[120px] w-auto md:w-full">
         <div className="flex flex-col gap-2 items-center justify-start md:px-5 w-auto md:w-full">
           <Text
             className="sm:text-4xl md:text-[38px] text-[40px] text-lime-900_01 underline w-auto"
@@ -345,7 +346,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <div className=""></div>
+      {/* <-------------------------------------------How it works section ends -----------------------------------------> */}
       {/* <-------------------------------------------Food Card section starts -----------------------------------------> */}
       <div className="food-container">
         <div className="food-card-title">
